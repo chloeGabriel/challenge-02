@@ -1,0 +1,142 @@
+/*General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    margin:200px auto;
+}
+
+.accent {
+    color: hsl(277, 64%, 61%);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/* Main Card content */
+.main-card {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 50px auto;
+}
+
+/*Left Column */
+.left-column {
+    margin: 50px;
+}
+
+.left-column p {
+    font-weight: lighter;
+    padding: 20px 90px 60px 0;
+    line-height: 1.8;
+}
+
+.left-column h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 10px auto;
+}
+
+.horizontal-list {
+    column-width: 9.5em;
+    list-style-type: none;
+}
+
+.horizontal-list .numbers {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.horizontal-list .services {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    line-height: 2.8;
+}
+
+.horizontal-list li:first-child {
+    margin-top: 0px;
+}
+
+/*Right Column */
+.right-column {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.right-column img {
+    border-radius: 0 10px 10px 0;
+}
+
+.right-column::before {
+    background-color: hsl(277, 64%, 50%);
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+    width: 540px;
+    height: 446px;
+    border-radius: 0 10px 10px 0;
+}
+
+/*Attribution */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/*Responsive Design */
+@media only screen and (max-width: 1830px) {
+    .main-card {
+        max-width: 60%;
+    }
+    .horizontal-list {
+        column-width: 7.5em;
+    }
+}
+
+@media only screen and (max-width: 1723px) {
+    .main-card {
+        flex-direction: column-reverse;
+        max-width: 31%;
+        text-align: center;
+    }
+    .left-column {
+        margin: 50px 50px 0 50px;
+    }
+    .left-column p {
+        padding: 20px 30px;
+    }
+    .horizontal-list {
+        column-width: 14.5em;
+    }
+    .horizontal-list .services {
+        margin-bottom: 40px;
+    }
+    .right-column img {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+    .right-column::before {
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+
+}
