@@ -10,21 +10,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59102243">
+    <splitter split-orientation="horizontal" split-proportion="0.60598505">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.5762527">
+        <splitter split-orientation="vertical" split-proportion="0.46623093">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+              <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="242">
-                      <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+                    <state relative-caret-position="416">
+                      <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="mobile-design.jpg" pinned="false" current-in-tab="true">
+              <file leaf-file-name="mobile-design.jpg" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/design/mobile-design.jpg">
                   <provider selected="true" editor-type-id="images" />
                 </entry>
@@ -41,8 +41,8 @@
               <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="2992">
-                      <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+                    <state relative-caret-position="303">
+                      <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
                     </state>
                   </provider>
                 </entry>
@@ -53,12 +53,12 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="desktop-design.jpg" pinned="false" current-in-tab="true">
+          <file leaf-file-name="desktop-design.jpg" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/design/desktop-design.jpg">
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
-          <file leaf-file-name="style-guide.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style-guide.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style-guide.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
@@ -165,15 +165,16 @@
       <workItem from="1629212736640" duration="18000" />
       <workItem from="1629360593704" duration="55000" />
       <workItem from="1629444431334" duration="9254000" />
-      <workItem from="1629703988164" duration="4993000" />
+      <workItem from="1629703988164" duration="8112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14669000" />
+    <option name="totallyTimeSpent" value="17788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -238,6 +239,18 @@
     <entry file="file://$PROJECT_DIR$/design/desktop-preview.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/design/desktop-design.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/image-header-desktop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/image-header-mobile.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/mobile-design.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/style-guide.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -248,29 +261,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/desktop-design.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/image-header-desktop.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/image-header-mobile.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="416">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/mobile-design.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+        <state relative-caret-position="303">
+          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
         </state>
       </provider>
     </entry>

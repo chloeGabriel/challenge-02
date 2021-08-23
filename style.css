@@ -12,87 +12,74 @@
 
 body {
     background-color: hsl(233, 47%, 7%);
-    margin:200px auto;
 }
 
 .accent {
     color: hsl(277, 64%, 61%);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* Main Card content */
-.main-card {
-    background-color: hsl(244, 38%, 16%);
-    border-radius: 10px;
+.card {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 60%;
-    margin: 50px auto;
+    height: 97vh;
 }
 
+.main-content {
+    display: flex;
+    max-width: 1000px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+}
 /*Left Column */
 .left-column {
-    margin: 50px;
+    padding: 3rem;
+    margin-right: 2rem;
 }
 
 .left-column p {
     font-weight: lighter;
-    padding: 20px 90px 60px 0;
     line-height: 1.8;
+    margin: 20px auto;
 }
 
 .left-column h1 {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 10px auto;
 }
 
-.horizontal-list {
-    column-width: 9.5em;
-    list-style-type: none;
+.stats-content {
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
 }
 
-.horizontal-list .numbers {
+.stat-bloc h3 {
     font-size: 1.5rem;
-    font-weight: 700;
 }
-
-.horizontal-list .services {
-    text-transform: uppercase;
-    font-weight: lighter;
+.stat-bloc small {
     font-size: 0.8rem;
-    line-height: 2.8;
+    text-transform: uppercase;
 }
 
-.horizontal-list li:first-child {
-    margin-top: 0px;
-}
 
 /*Right Column */
-.right-column {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.right-column img {
-    border-radius: 0 10px 10px 0;
-}
 
-.right-column::before {
+.card-image {
     background-color: hsl(277, 64%, 50%);
-    position: absolute;
-    content: "";
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    background: url("images/image-header-desktop.jpg");
     opacity: 0.4;
-    width: 540px;
-    height: 446px;
+    width: 500px;
+    height: 400px;
     border-radius: 0 10px 10px 0;
+    background-blend-mode: multiply;
+    filter: opacity(0.8);
 }
 
 /*Attribution */
@@ -101,42 +88,46 @@ footer {
     justify-content: center;
 }
 
-/*Responsive Design */
-@media only screen and (max-width: 1830px) {
-    .main-card {
-        max-width: 60%;
-    }
-    .horizontal-list {
-        column-width: 7.5em;
-    }
+.attribution a {
+    text-decoration: none;
+    color: hsl(277, 64%, 61%);
+}
+.attribution {
+    text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1723px) {
-    .main-card {
-        flex-direction: column-reverse;
-        max-width: 31%;
-        text-align: center;
-    }
-    .left-column {
-        margin: 50px 50px 0 50px;
-    }
-    .left-column p {
-        padding: 20px 30px;
-    }
-    .horizontal-list {
-        column-width: 14.5em;
-    }
-    .horizontal-list .services {
-        margin-bottom: 40px;
-    }
-    .right-column img {
-        border-radius: 10px 10px 0 0;
-        width: 100%;
-    }
-    .right-column::before {
-        height: 100%;
-        border-radius: 10px 10px 0 0;
-        width: 100%;
+/*Responsive Design */
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+    .card {
+        margin: 8rem 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    .main-content {
+        width: 320px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .left-column {
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+    .stats-content {
+        flex-direction: column-reverse;
+    }
+
+    .stat-bloc {
+        margin: 20px;
+    }
+    .card-image {
+        width: 320px;
+        height: 250px;
+        background: url("images/image-header-mobile.jpg");
+        border-radius: 10px 10px 0 0;
+    }
 }
